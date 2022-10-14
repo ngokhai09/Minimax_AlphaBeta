@@ -1,0 +1,36 @@
+tree.root.addChild("B");
+// tree.root.addChild("C");
+// tree.root.addChild("D");
+// // node B
+// tree.root.children[0].addChild("E");
+// tree.root.children[0].addChild("F");
+// // node E
+// tree.root.children[0].children[0].addChild("2");
+// tree.root.children[0].children[0].addChild("6");
+// // node F
+// tree.root.children[0].children[1].addChild("5");
+// tree.root.children[0].children[1].addChild("6");
+// tree.root.children[0].children[1].addChild("3");
+// // node C
+// tree.root.children[1].addChild("7");
+// tree.root.children[1].addChild("8");
+// tree.root.children[1].addChild("G");
+// // node G
+// tree.root.children[1].children[2].addChild("9");
+// tree.root.children[1].children[2].addChild("1");
+// tree.root.children[1].children[2].addChild("3");
+// // node D
+// tree.root.children[2].addChild("H");
+// tree.root.children[2].addChild("I");
+// tree.root.children[2].addChild("J");
+// // node H
+// tree.root.children[2].children[0].addChild("5");
+// tree.root.children[2].children[0].addChild("2");
+// tree.root.children[2].children[0].addChild("4");
+// // node I
+// tree.root.children[2].children[1].addChild("7");
+// // node J
+
+// tree.root.children[2].children[2].addChild("9");
+// tree.root.children[2].children[2].addChild("4");
+// // tree.printPreorder(tree.root);

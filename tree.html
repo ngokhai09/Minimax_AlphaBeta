@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/hierarchy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        #chartdiv {
+            width: 100%;
+            height: 550px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="input">
+        <div>
+            <label for="">root</label>
+            <input type="text" id="Root" readonly>
+        </div>
+        <div>
+            <label for="">children</label>
+            <input type="text" id="children" placeholder="add child">
+        </div>
+        <div>
+            <select name="" id="oprion">
+                <option value="max">MAX</option>
+                <option value="min">Min</option>
+            </select>
+        </div>
+        <button onclick="addChild()">Add Child</button>
+        <button onclick="cal()">Minimax</button>
+    </div>
+    <div id="chartdiv"></div>
+</body>
+    <script>
+        var root = am5.Root.new("chartdiv");
+    </script>
+    <script src="Node.js"></script>
+    <script src="Tree.js"></script>
+    <script src="Minimax.js"></script>
+
+    <script src="client.min.js"></script>   
+
+</html>
